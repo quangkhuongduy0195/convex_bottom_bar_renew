@@ -1,3 +1,4 @@
-## 0.0.1
+## [1.0.0]
 
-* TODO: Describe initial release.
+- Publish the packages to pub.dev
+- Upgrade Flutter version to 3.22.2

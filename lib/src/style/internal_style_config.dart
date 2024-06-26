@@ -16,7 +16,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../convex_bottom_bar.dart';
+import '../../convex_bottom_bar_renew.dart';
 
 /// Internal style configuration.
 class InternalStyle extends StyleHook {

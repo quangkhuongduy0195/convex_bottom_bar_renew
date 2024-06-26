@@ -1,5 +1,8 @@
 <p align="center"><img src="https://github.com/hacktons/convex_bottom_bar/raw/master/doc/preview.png" alt="appBar preview"></p>
-This package is for the purpose of updating the Flutter version. We still respect the original package [convex_bottom_bar](https://pub.dev/packages/convex_bottom_bar).
+This package is for the purpose of updating the Flutter version. We still respect the original package
+
+[convex_bottom_bar](https://pub.dev/packages/convex_bottom_bar)
+
 ---
 
 The official BottomAppBar can only display a notch FAB with an app bar, and sometimes we need a convex FAB. BottomAppBar and NotchShape's implementation inspires this ConvexAppBar.
@@ -22,7 +25,7 @@ Typically ConvexAppBar can work with `Scaffold` by setup its `bottomNavigationBa
 
 The `ConvexAppBar` has two constructors. The `ConvexAppBar()` will use the default style to simplify the tab creation.
 
-Add this to your package's pubspec.yaml file, use the latest version [![Pub](https://img.shields.io/pub/v/convex_bottom_bar.svg)](https://pub.dartlang.org/packages/convex_bottom_bar):
+Add this to your package's pubspec.yaml file, use the latest version:
 
 ```yaml
 dependencies:
@@ -30,7 +33,7 @@ dependencies:
 ```
 
 ```dart
-import 'package:convex_bottom_bar_renew/convex_bottom_bar.dart';
+import 'package:convex_bottom_bar_renew/convex_bottom_bar_renew.dart';
 
 Scaffold(
   bottomNavigationBar: ConvexAppBar(
@@ -205,21 +208,3 @@ class Builder extends DelegateBuilder {
   }
 }
 ```
-
-Full custom example can be found at [example](example).
-
-## FAQ
-
-Please file feature requests and bugs at the [issue tracker](https://github.com/hacktons/convex_bottom_bar/issues).
-
-- [How to block tab event?](doc/how-to-block-tab-event.md)
-- [Crash on flutter dev/beta channel](doc/issue-crash-on-flutter-dev-channel.md)
-- [Change active tab index programmatically](doc/issue-change-active-tab-index.md)
-- [Using an image instead of an icon for actionItem](doc/issue-image-for-actionitem.md)
-- [Is there anyway to remove elevation in the bottom bar?](doc/issue-remove-elevation.md)
-
-## Donate
-
-You like the package ? Buy me a coffee :)
-
-[![ko-fi](doc/donate-kofi1.png)](https://ko-fi.com/hacktons)

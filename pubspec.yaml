@@ -1,11 +1,11 @@
 name: convex_bottom_bar_renew
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: "Show a convex tab in the bottom bar. Theming supported."
+version: 1.0.0
+homepage: https://github.com/quangkhuongduy0195/convex_bottom_bar_renew
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=3.4.3 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
